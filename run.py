@@ -7,7 +7,7 @@ def create_db():
     """Create database tables"""
     from app.models import User
     db.create_all()
-    click.echo('Tables created')
+    click.echo('Created database tables')
 
 
 app.cli.add_command(create_db)
@@ -18,7 +18,7 @@ def clear_db():
     """Drop database tables"""
     from app.models import User
     db.drop_all()
-    click.echo('Database cleared')
+    click.echo('Cleared database')
 
 
 app.cli.add_command(clear_db)
