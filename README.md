@@ -1,2 +1,2 @@
 # flask-commands-example
-Code snippets for blog post http://mehdi.codes/blogs/flask-custom-commands
+## Code snippets for [Flask custom commands](http://mehdi.codes/blogs/flask-custom-commands) blog post
